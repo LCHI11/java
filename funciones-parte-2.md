@@ -4,7 +4,15 @@ Desafíos:
 return imc;
 
 3. Crea una función que calcule el valor del factorial de un número pasado como parámetro.(????)
-function factorial(numero){for i=1 ; i<=numero ;i++}
+function factorial(numero){for (var i=1 ; i<=numero ;i++} {
+    var resultado = numero * i;
+    console.log(numero + " x " + i + " = " + resultado);
+  }
+}
+// Ejemplo de uso
+let numero = 7;
+mostrarTablaDeMultiplicar(numero);
+
      
 5.Crea una función que convierta un valor en dólares, pasado como parámetro, y devuelva el valor equivalente en reales(moneda brasileña,si deseas puedes hacerlo con el valor del dólar en tu país). Para esto, considera la cotización del dólar igual a R$4,80.
 6.Crea una función que muestre en pantalla el área y el perímetro de una sala rectangular, utilizando la altura y la anchura que se proporcionarán como parámetros.
